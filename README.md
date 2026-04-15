@@ -32,7 +32,7 @@ chmod +x server_stats.sh
 
 ## Auto-run with Cron
 
-```zsh
+```zs
 crontab -e
 
 # Add this line to run every hour
@@ -40,3 +40,7 @@ crontab -e
 ```
 
 ## Project Structure
+server-stats/
+├── server_stats.sh   # Main script
+├── .gitignore
+└── README.md
